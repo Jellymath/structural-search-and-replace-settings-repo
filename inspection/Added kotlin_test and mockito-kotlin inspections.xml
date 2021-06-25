@@ -1,5 +1,5 @@
 <profile version="1.0">
-  <option name="myName" value="Project Default copy" />
+  <option name="myName" value="Added kotlin.test and mockito-kotlin inspections" />
   <inspection_tool class="SSBasedInspection" enabled="true" level="WARNING" enabled_by_default="true">
     <replaceConfiguration name="Convert JUnit5 assertEquals to kotlin.test one" problemDescriptor="Use assertEquals from kotlin.test" text="Assertions.assertEquals($Expected$, $Actual$)" recursive="false" caseInsensitive="false" type="Kotlin" pattern_context="default" reformatAccordingToStyle="true" shortenFQN="true" replacement="kotlin.test.assertEquals($Expected$, $Actual$)">
       <constraint name="__context__" within="" contains="" />
